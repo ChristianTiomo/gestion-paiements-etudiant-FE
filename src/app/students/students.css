@@ -1,0 +1,37 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px;
+}
+
+.student-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.filter-field {
+  width: 300px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+mat-header-cell {
+  font-weight: 600;
+  background-color: #f5f5f5;
+}
+
+mat-cell, mat-header-cell {
+  padding: 12px 16px;
+}
